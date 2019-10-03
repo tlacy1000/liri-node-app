@@ -1,0 +1,12 @@
+{
+  "name": "borja-temporary-stuff",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon start.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "node-spotify-api": "^1.1.1",
+    "nodemon": "^1.19.3"
+  }
+}
