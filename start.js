@@ -5,8 +5,6 @@ require('dotenv').config();
 var fs = require("fs");
 var keys = require("./keys");
 var Spotify = require('node-spotify-api');
-
-console.log(keys.spotify);
 var spotify = new Spotify(keys.spotify);
 
 
@@ -155,5 +153,6 @@ function commandProcess(command, value){
 
 var action = process.argv[2];
 var value = process.argv.splice(3).join("+");
+
 
 commandProcess(action, value);
